@@ -6,8 +6,6 @@
 }
   
 header {
-    padding-top: 30px;
-    padding-right: 25px;
     height: 110px;
     width: 100%;
     background-color: rgba(4,9,30,0.5);
@@ -305,7 +303,7 @@ header .fa {
 
 .about {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 100px;
     background: #efefef;
     text-align: center;
     margin: auto;
@@ -319,13 +317,10 @@ header .fa {
 }
 
 .about p{
-    display: inline-block;
-     width: 80%;
     font-size: 14px;
     color: #777;
     font-weight: 300;
     padding: 10px;
-    margin-bottom: 10px;
 }
 
 .icons .fa {
@@ -357,10 +352,6 @@ form {
     max-width: 600px;
 }
 
-.form-title{
-    color: white;
-}
-
 .input-group {
     margin-bottom: 30px;
     position: relative;
@@ -370,7 +361,7 @@ input, textarea {
     width: 100%;
     padding: 10px;
     outline: 0;
-    border: 1px solid #fff !important;
+    border: 1px solid #fff;
     background: transparent;
     font-size: 15px;
 
